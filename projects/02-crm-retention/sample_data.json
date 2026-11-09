@@ -1,0 +1,40 @@
+{
+  "note": "Simulated data only. Times are UTC; the shop is in UTC+8. Drafting time is 2026-11-08 12:00 UTC (20:00 local).",
+  "now": "2026-11-08T12:00:00+00:00",
+  "send_attempt_2": "2026-11-09T01:00:00+00:00",
+  "customers": [
+    {"id": "c1", "email": "ana@example.com",  "name": "Ana Reyes",  "marketing_opt_in": 1, "created_at": "2026-10-01T00:00:00+00:00"},
+    {"id": "c2", "email": "ben@example.com",  "name": "Ben Cruz",   "marketing_opt_in": 1, "created_at": "2026-10-10T00:00:00+00:00"},
+    {"id": "c3", "email": "carla@example.com","name": "Carla Go",   "marketing_opt_in": 1, "created_at": "2026-09-01T00:00:00+00:00"},
+    {"id": "c4", "email": "dan@example.com",  "name": "Dan Uy",     "marketing_opt_in": 1, "created_at": "2026-05-01T00:00:00+00:00"},
+    {"id": "c5", "email": "eli@example.com",  "name": "Eli Tan",    "marketing_opt_in": 0, "created_at": "2026-10-20T00:00:00+00:00"},
+    {"id": "c6", "email": "fe@example.com",   "name": "Fe Lopez",   "marketing_opt_in": 1, "unsubscribed_at": "2026-09-15T00:00:00+00:00", "created_at": "2026-03-01T00:00:00+00:00"},
+    {"id": "c7", "email": "gina@example.com", "name": "Gina Sy",    "marketing_opt_in": 1, "created_at": "2026-01-01T00:00:00+00:00"},
+    {"id": "c8", "email": "hal@example.com",  "name": "Hal Ong",    "marketing_opt_in": 1, "open_complaint": 1, "created_at": "2026-10-02T00:00:00+00:00"},
+    {"id": "c9", "email": "ivy@example.com",  "name": "Ivy Chan",   "marketing_opt_in": 1, "created_at": "2026-10-25T00:00:00+00:00"},
+    {"id": "c10","email": "jun@example.com",  "name": "Jun Dy",     "marketing_opt_in": 1, "created_at": "2026-10-28T00:00:00+00:00"}
+  ],
+  "orders": [
+    {"order_id": "O1",  "customer_id": "c1", "total": 850.0,  "ordered_at": "2026-11-04T08:00:00+00:00"},
+    {"order_id": "O2",  "customer_id": "c2", "total": 1200.0, "ordered_at": "2026-10-19T08:00:00+00:00"},
+    {"order_id": "O3",  "customer_id": "c3", "total": 640.0,  "ordered_at": "2026-09-20T08:00:00+00:00"},
+    {"order_id": "O4",  "customer_id": "c4", "total": 500.0,  "ordered_at": "2026-07-10T08:00:00+00:00"},
+    {"order_id": "O5",  "customer_id": "c5", "total": 300.0,  "ordered_at": "2026-11-04T09:00:00+00:00"},
+    {"order_id": "O6",  "customer_id": "c6", "total": 410.0,  "ordered_at": "2026-06-01T08:00:00+00:00"},
+    {"order_id": "O7a", "customer_id": "c7", "total": 700.0,  "ordered_at": "2026-08-01T08:00:00+00:00"},
+    {"order_id": "O7b", "customer_id": "c7", "total": 900.0,  "ordered_at": "2026-09-15T08:00:00+00:00"},
+    {"order_id": "O7c", "customer_id": "c7", "total": 1100.0, "ordered_at": "2026-11-03T08:00:00+00:00"},
+    {"order_id": "O8",  "customer_id": "c8", "total": 250.0,  "ordered_at": "2026-11-04T10:00:00+00:00"},
+    {"order_id": "O9",  "customer_id": "c9", "total": 480.0,  "ordered_at": "2026-11-08T11:00:00+00:00"}
+  ],
+  "carts": [
+    {"cart_id": "K1", "customer_id": "c3",  "total": 1890.5, "updated_at": "2026-11-08T07:00:00+00:00"},
+    {"cart_id": "K2", "customer_id": "c9",  "total": 330.0,  "updated_at": "2026-11-08T09:00:00+00:00"},
+    {"cart_id": "K3", "customer_id": "c10", "total": 720.0,  "updated_at": "2026-11-08T08:30:00+00:00"}
+  ],
+  "prior_messages": [
+    {"customer_id": "c7", "campaign": "WINBACK", "dedupe_key": "history:c7:1", "subject": "earlier email", "body": "earlier email", "sent_at": "2026-11-02T10:00:00+00:00"},
+    {"customer_id": "c7", "campaign": "NUDGE",   "dedupe_key": "history:c7:2", "subject": "earlier email", "body": "earlier email", "sent_at": "2026-11-04T10:00:00+00:00"}
+  ],
+  "later_order": {"order_id": "O10", "customer_id": "c3", "total": 1890.5, "ordered_at": "2026-11-09T05:00:00+00:00"}
+}

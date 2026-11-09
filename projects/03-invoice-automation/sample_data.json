@@ -1,0 +1,26 @@
+{
+  "note": "Simulated data only. Amounts are PHP. Tax and billing rules are illustrative.",
+  "today": "2026-11-09",
+  "later": "2026-12-20",
+  "customers": [
+    {"id": "cus_ana",   "name": "Ana Reyes Trading",  "email": "accounts@reyestrading.example", "billing_address": "12 Rizal St, Dumaguete", "terms_days": 30, "credit_limit": 200000},
+    {"id": "cus_ben",   "name": "Ben's Cafe",         "email": "ben@benscafe.example",          "billing_address": "",                       "terms_days": 15},
+    {"id": "cus_carla", "name": "Carla Go Retail",    "email": "carla@cgretail.example",        "billing_address": "88 Silliman Ave, Dumaguete", "terms_days": 30, "credit_limit": 20000},
+    {"id": "cus_dan",   "name": "Dan Uy Logistics",   "email": "dan@uylogistics.example",       "billing_address": "3 Hibbard Ave, Dumaguete", "terms_days": 45, "vat_exempt": 1},
+    {"id": "cus_eli",   "name": "Eli Tan Holdings",   "email": "eli@tanholdings.example",       "billing_address": "9 Real St, Dumaguete",   "terms_days": 30}
+  ],
+  "orders": [
+    {"order_id": "O-1000", "customer_id": "cus_carla", "approved_by": "Sales Lead", "approved_at": "2026-11-08", "items": [{"sku": "BOX-L", "qty": 1, "unit_price": 10000}]},
+    {"order_id": "O-1001", "customer_id": "cus_ana",   "approved_by": "Sales Lead", "approved_at": "2026-11-08", "discount_pct": 0.05, "shipping": 150, "total": "6022.13",
+     "items": [{"sku": "BOX-M", "qty": 10, "unit_price": 500}, {"sku": "LABEL", "qty": 4, "unit_price": 125.50}]},
+    {"order_id": "O-1002", "customer_id": "cus_ben",   "approved_by": "Sales Lead", "approved_at": "2026-11-08", "items": [{"sku": "BOX-S", "qty": 5, "unit_price": 200}]},
+    {"order_id": "O-1003", "customer_id": "cus_ana",   "approved_by": "Sales Lead", "approved_at": "2026-11-08", "total": "2000.00", "items": [{"sku": "BOX-XL", "qty": 2, "unit_price": 1000}]},
+    {"order_id": "O-1004", "customer_id": "cus_dan",   "items": [{"sku": "BOX-S", "qty": 1, "unit_price": 500}]},
+    {"order_id": "O-1005", "customer_id": "cus_ana",   "approved_by": "Sales Lead", "approved_at": "2026-11-08", "discount_pct": 0.05, "shipping": 150,
+     "items": [{"sku": "BOX-M", "qty": 10, "unit_price": 500}, {"sku": "LABEL", "qty": 4, "unit_price": 125.50}]},
+    {"order_id": "O-1006", "customer_id": "cus_eli",   "approved_by": "Sales Lead", "approved_at": "2026-11-08", "items": [{"sku": "PALLET", "qty": 1, "unit_price": 150000}]},
+    {"order_id": "O-1007", "customer_id": "cus_carla", "approved_by": "Sales Lead", "approved_at": "2026-11-08", "items": [{"sku": "BOX-L", "qty": 1, "unit_price": 15000}]},
+    {"order_id": "O-1008", "customer_id": "cus_dan",   "approved_by": "Sales Lead", "approved_at": "2026-11-08", "items": [{"sku": "BOX-S", "qty": 0, "unit_price": 500}]},
+    {"order_id": "O-1009", "customer_id": "cus_dan",   "approved_by": "Sales Lead", "approved_at": "2026-11-08", "items": [{"sku": "BOX-XL", "qty": 3, "unit_price": 2000}]}
+  ]
+}

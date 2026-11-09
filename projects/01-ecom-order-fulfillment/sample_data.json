@@ -1,0 +1,12 @@
+{
+  "inventory": {"TSHIRT-M": 10, "MUG-01": 5, "CAP-BLK": 2},
+  "orders": [
+    {"order_id": "A1001", "customer": {"name": "Ana Reyes", "email": "ana@example.com", "ship_address": "12 Rizal St, Dumaguete"}, "items": [{"sku": "TSHIRT-M", "qty": 2}, {"sku": "MUG-01", "qty": 1}]},
+    {"order_id": "A1002", "customer": {"name": "Ben Cruz", "email": "", "ship_address": "5 Perdices St, Dumaguete"}, "items": [{"sku": "MUG-01", "qty": 1}]},
+    {"order_id": "A1003", "customer": {"name": "Ana Reyes", "email": "ANA@example.com", "ship_address": "12 Rizal St, Dumaguete"}, "items": [{"sku": "MUG-01", "qty": 1}, {"sku": "TSHIRT-M", "qty": 2}]},
+    {"order_id": "A1001", "customer": {"name": "Ana Reyes", "email": "ana@example.com", "ship_address": "12 Rizal St, Dumaguete"}, "items": [{"sku": "TSHIRT-M", "qty": 2}, {"sku": "MUG-01", "qty": 1}]},
+    {"order_id": "A1004", "customer": {"name": "Carla Go", "email": "carla@example.com", "ship_address": "88 Silliman Ave, Dumaguete"}, "items": [{"sku": "CAP-BLK", "qty": 3}]},
+    {"order_id": "A1005", "customer": {"name": "Dan Uy", "email": "dan@example.com", "ship_address": "3 Hibbard Ave, Dumaguete"}, "items": [{"sku": "HAT-XX", "qty": 1}]},
+    {"order_id": "A1006", "customer": {"name": "Eli Tan", "email": "eli@example.com", "ship_address": "9 Real St, Dumaguete"}, "items": [{"sku": "CAP-BLK", "qty": 2}]}
+  ]
+}

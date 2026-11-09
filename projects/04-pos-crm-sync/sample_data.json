@@ -1,0 +1,18 @@
+{
+  "note": "Simulated data only. Amounts are in PHP.",
+  "crm_seed": [
+    {"name": "Maria Santos", "email": "maria@example.com", "phone": null},
+    {"name": "Jose Lim", "email": "jose@example.com", "phone": "+639171234567"}
+  ],
+  "transactions": [
+    {"txn_id": "T1", "store": "Dumaguete-1", "customer": {"name": "Ana Reyes", "email": "ana@example.com", "phone": "0917 555 0001"}, "lines": [{"sku": "COFFEE", "qty": 2, "price": 120.0}], "total": 240.0},
+    {"txn_id": "T2", "store": "Dumaguete-1", "customer": {"name": "Ana R.", "email": "ANA@Example.com ", "phone": "+63 917 555 0001"}, "lines": [{"sku": "CAKE", "qty": 1, "price": 180.0}], "total": 180.0},
+    {"txn_id": "T3", "store": "Dumaguete-1", "customer": {}, "lines": [{"sku": "COFFEE", "qty": 1, "price": 120.0}], "total": 120.0},
+    {"txn_id": "T4", "store": "Dumaguete-1", "customer": {"name": "Ben Cruz", "email": "ben-at-example", "phone": ""}, "lines": [{"sku": "COFFEE", "qty": 1, "price": 120.0}], "total": 120.0},
+    {"txn_id": "T5", "store": "Dumaguete-1", "customer": {"name": "Carla Go", "email": "carla@example.com"}, "lines": [{"sku": "CAKE", "qty": 2, "price": 180.0}], "total": 300.0},
+    {"txn_id": "T6", "store": "Dumaguete-1", "customer": {"name": "Maria Santos", "email": "maria@example.com", "phone": "0917-123-4567"}, "lines": [{"sku": "COFFEE", "qty": 1, "price": 120.0}], "total": 120.0},
+    {"txn_id": "T1", "store": "Dumaguete-1", "customer": {"name": "Ana Reyes", "email": "ana@example.com", "phone": "0917 555 0001"}, "lines": [{"sku": "COFFEE", "qty": 2, "price": 120.0}], "total": 240.0},
+    {"txn_id": "T7", "store": "Dumaguete-1", "customer": {"phone": "0918 000 1111"}, "lines": [{"sku": "COFFEE", "qty": 1, "price": 120.0}], "total": 120.0}
+  ],
+  "late_transaction": {"txn_id": "T8", "store": "Dumaguete-1", "customer": {"name": "Luz Tan", "email": "luz@example.com", "phone": "0919 222 3333"}, "lines": [{"sku": "CAKE", "qty": 1, "price": 180.0}], "total": 180.0}
+}
